@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Георгий Бурин](https://up.htmlacademy.ru/htmlcss/36/user/2181761).
-* Наставник: `Артем Картавый`.
+* Наставник: `Артем Картавый https://htmlacademy.ru/profile/artem_k`.
 
 ---
 
