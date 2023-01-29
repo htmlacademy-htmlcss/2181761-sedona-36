@@ -42,7 +42,7 @@
         <ul class="breadcrumbs">
           <li class="breadcrubms-item">
           <a class="breadcrumbs-link href=index.html">Домик</a>
-            <!-- Я понимаю, что ну нужно писать "домик", но не знаю, как это сейчас написать. Ведь этот дом - это декоративное изображение -->
+            <!-- Я понимаю, что не нужно писать "домик", но не знаю, как это сейчас написать. Ведь этот дом - это декоративное изображение -->
           </li>
           <li class="breadcrubms-item">
             <a class="breadcrumbs-link">Каталог</a>
@@ -52,13 +52,25 @@
       <section>
         <h2 class="visually-hidden">Инфраструктура гостиницы</h2>
         <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-          <fieldset>
-            <legend>Инфраструктура:</legend>
-            <label>
-              <input type="checkbox" name="Swimming-pool" checked>Бассейн
-              <input type="checkbox" name="Parking" checked>Парковка
-              <input type="checkbox" name="Wi-Fi">Wi-Fi
-            </label>
+          <fieldset class="catalog-filter-group">
+            <legend class=catalog-filter-title">Инфраструктура:</legend>
+            <ul class="catalog-filter-list">
+              <li class="catalog-filter-item">
+              <label class="control">
+                <input class="control-input" type="checkbox" name="swimming-pool" checked>Бассейн
+              </label>
+              </li>
+              <li class="catalog-filter-item">
+                <label class="control">
+                  <input class="control-input" type="checkbox" name="Parking" checked>Парковка
+                </label>
+              </li>
+              <li class="catalog-filter-item">
+                <label class="control">
+                  <input class="control-input" type="checkbox" name="Wi-Fi">Wi-Fi
+                </label>
+              </li>
+            </legend>
           </fieldset>
           <fieldset>
             <legend>Тип жилья:</legend>
