@@ -15,7 +15,7 @@
            <li class="navigation-main">
              <a href="#">Главная</a>
            </li>
-           <li class="navitaion-about-Sedona">
+           <li class="navitaion-about-sedona">
              <a href="#">О Седоне</a>
            </li>
            <li class="navigation-hotels">
@@ -24,12 +24,16 @@
          </ul>
          <ul class="navigation-user">
            <li class="navigation-item">
-             <img class="navigation-link" src="images/top-bar-icons/icon-search.svg" width="44" height="64" alt="Лупа">
-             <span class="visually-hidden">Поиск</span>
+            <a class="navigation-link" href="images/top-bar-icons/search.svg">
+              <img class="navgation-picture" src="images/top-bar-icons/search.svg" width="44" height="64" alt="Лупа">
+              <span class="visually-hidden">Поиск</span>
+            </a>
            </li>
            <li class="navigation-item">
-             <img class="navigation-link" src="images/top-bar-icons/icon-favourites.svg" width="44" height="64" alt="Сердечко">
-             <span class="visually-hidden">Избранное</span>
+            <a class="navigation-link" href="images/top-bar-icons/favourites.svg">
+              <img class="navgation-picture" src="images/top-bar-icons/favourites.svg" width="44" height="64" alt="Сердечко">
+              <span class="visually-hidden">Избранное</span>
+            </a>
            </li>
            <li>
              <a class="button" href="#">Хочу сюда!</a>
@@ -39,13 +43,14 @@
      </header>
    <main>
      <h1 class="visually-hidden">Добро пожаловать в Седону </h1>
-     <img class="pitcure-welcome" src="images/main-picture/sedona-background.jpg" alt="красивый вид на горы">
+     <img class="pitcure-welcome" src="images/main-picture/welcome-background.jpg" width="1200" height="485" alt="красивый вид на горы">
+     <img class="picture-text" src="images/main-picture/welcome-text.svg" width="458" height="352" alt="Подпись к картинке">
      <h2> Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
      <span> Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</span>
      <section class="advantages">
        <h3> Настоящий городок </h3>
        <p> Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-       <img class="pic-hotel-nature" src="images/photo-1-mountains-hotel.jpg" width="800" height="385" alt="Природа глазами из отеля">
+       <img class="pic-hotel-nature" src="images/hotel-view.jpg" width="800" height="385" alt="Природа глазами из отеля">
        <h2 class="visually-hidden">Преимущества</h2>
        <ul class="advantages-list">
          <li class="advantages-item">
@@ -63,7 +68,7 @@
        </ul>
      </section>
      <section>
-       <img src="images/photo-2-canyon.jpg" width="800" height="385" alt="Горы">
+       <img src="images/canyon-view.jpg" width="800" height="385" alt="Горы">
        <h3> Там есть мост дьявола</h3>
        <span> Да, по нему можно пройти! Если вы осмелитесь, разумеется</span>
      </section>
@@ -100,6 +105,7 @@
      <section class="email-subscribtion">
        <h3>ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
        <span>Только полезная информация и никакого спама, честное бойскаутское!</span>
+       <img src="images/footer-background.png" width="1200" height="415" alt="размытый фон гор">
        <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
          <input class="field"  placeholder="Ваш email" type="email" name="newsletter-email" id="newsletter-email" required>
          <button class="button newsletter-button" type="submit">
