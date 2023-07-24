@@ -27,8 +27,6 @@ body {
 font-family: "PT Sans", sans-serif;
 font-size: 24px;
 line-height: 28px;
-background-color: ;
-color: black
 }
 
 .page-header {
@@ -37,22 +35,11 @@ color: black
   font-weight: 700;
   line-height: 24px;
   background: rgba(255, 255, 255, 1);
-  color: black;
 }
 
 a {
   text-decoration: none;
   color: black;
-}
-
-.button-header {
-  font-family: PT Sans;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 20px;
-  letter-spacing: 0em;
-  text-align: center;
-  color:white;
 }
 
 .title-main {
@@ -133,7 +120,7 @@ text-transform: uppercase;
 }
 
 .grey {
-
+background-color: rgba(242, 242, 242, 1);
 }
 
 input {
@@ -152,7 +139,7 @@ text-align: left;
 }
 
 .breadcrumbs {
-  color:tomato; /*поменять цвет!! */
+  color: white;
 }
 
 .breadcrumbs-link {
@@ -166,7 +153,6 @@ text-align: left;
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
-  color: tomato; /*поменять  цвет */
 }
 
 .control {
@@ -176,7 +162,6 @@ text-align: left;
   line-height: 23px;
   letter-spacing: 0em;
   text-align: left;
-  color:tomato; /*поменять цвет */
 }
 
 .number {
@@ -214,6 +199,20 @@ line-height: 36px;
 letter-spacing: 0em;
 text-align: center;
 }
+
+ol.pagination li:first-child {
+  background-color: rgba(242, 242, 242, 1);
+}
+
+ol.pagination li:not(:first-child) {
+  background: rgba(130, 179, 211, 1);
+
+}
+
+.pagination li:not(:first-child):not(:nth-child(5)) a {
+  color: white;
+}
+
 
 .contacts-phone {
 font-family: PT Sans;
