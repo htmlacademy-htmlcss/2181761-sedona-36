@@ -36,7 +36,7 @@
              </a>
            </li>
            <li>
-             <a class="button" href="#">Хочу сюда!</a>
+             <a class="button-header" href="#">Хочу сюда!</a>
            </li>
           </ul>
        </nav>
@@ -57,7 +57,7 @@
        <section>
          <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
            <fieldset class="catalog-filter-group">
-             <legend class="catalog-filter-title">Инфраструктура:</legend>
+             <legend class="catalog-filter-title"><!--Добавить в теге класс "white", изменить цвет в родительском теге, так как остальное наследуется-->Инфраструктура:</legend>
              <ul class="catalog-filter-list">
                <li class="catalog-filter-item">
                  <label class="control">
@@ -74,7 +74,7 @@
              </ul>
              </fieldset>
            <fieldset>
-             <legend>Тип жилья:</legend>
+             <legend class="catalog-filter-title">Тип жилья:</legend>
              <ul class="catalog-filter-list">
                <li class="catalog-filter-item">
                  <label class="control">
@@ -94,11 +94,11 @@
        </section>
        <section>
          <form action="https://echo.htmlacademy.ru/" method="post">
-           <label for="min-price-field">Стоимость, ₽:</label>
-           <input type="number" name="min-price" id="min-price-field" value="0" placeholder="от">
+           <label class="catalog-filter-title" for="min-price-field">Стоимость, ₽:</label>
+           <input class="number" type="number" name="min-price" id="min-price-field" value="0" placeholder="от">
            <label for="max-price-field"></label>
-           <input type="number" name="max-price" id="max-price-field" value="9000" placeholder="до">
-           <input type="submit" value="Применить">
+           <input class="number" type="number" name="max-price" id="max-price-field" value="9000" placeholder="до">
+           <input class= type="submit" value="Применить">
            <input type="reset" value="Сбросить">
          </form>
        </section>
