@@ -200,11 +200,11 @@ letter-spacing: 0em;
 text-align: center;
 }
 
-ol.pagination li:first-child {
+ol.pagination li:first-child a {
   background-color: rgba(242, 242, 242, 1);
 }
 
-ol.pagination li:not(:first-child) {
+ol.pagination li:not(:first-child) a {
   background: rgba(130, 179, 211, 1);
 
 }
